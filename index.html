@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+<link rel="icon"
+<link rel="icon"
+type="image/png"
+href="Imagens/ChatGPT_Image_May_16__2026__07_52_57_PM-removebg-preview.png">
+    <!-- Ícones -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Psicóloga | Portfólio</title>
+</head>
+
+<body class="escuro">
+
+    <!-- HEADER -->
+    <header>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="#inicio" class="link">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#sobre" class="link">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#atendimento" class="link">
+                        <i class="fa-solid fa-heart"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#formacao" class="link">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#depoimentos" class="link">
+                        <i class="fa-solid fa-comments"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#faq" class="link">
+                        <i class="fa-solid fa-circle-question"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contato" class="link">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0)" id="botao-tema">
+                        <i class="fa-solid fa-moon"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- SIDEBAR -->
+        <section id="ficha">
+
+            <img src="Imagens/f589c1d1-114c-4614-8ccb-612e56bec2e5.jpg"
+                alt="Foto da psicóloga"
+                class="foto">
+
+            <h1>Dra. Nome da Psicóloga</h1>
+
+            <span class="crp">
+                CRP 00/00000
+            </span>
+
+            <p>
+                Psicóloga especializada em desenvolvimento emocional,
+                ansiedade e autoestima.
+                Atendimento online e presencial com foco em acolhimento
+                e escuta humanizada.
+            </p>
+
+            <a href="#" class="btn-agendar">
+                <i class="fa-brands fa-whatsapp"></i>
+                Agendar Consulta
+            </a>
+
+            <div id="social">
+
+                <a href="#" target="_blank"
+                    class="fa-brands fa-instagram"></a>
+
+                <a href="#" target="_blank"
+                    class="fa-brands fa-linkedin-in"></a>
+
+                <a href="#" onclick="copiarEmail()">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+            <div id="alerta-copiado" class="alerta-sucesso">
+                E-mail copiado!
+            </div>
+
+        </section>
+
+        <!-- CONTEÚDO -->
+        <section id="detalhes">
+
+            <!-- SOBRE -->
+            <article id="sobre">
+
+                <h2>
+                    <i class="fa-solid fa-user"></i>
+                    Sobre Mim
+                </h2>
+
+                <p>
+                    Aqui você pode escrever a trajetória da psicóloga,
+                    sua abordagem terapêutica, experiências e objetivos
+                    com os pacientes.
+                </p>
+
+                <p>
+                    Exemplo:
+                    Trabalho com Terapia Cognitivo-Comportamental (TCC),
+                    ajudando pessoas a desenvolverem equilíbrio emocional
+                    e relações mais saudáveis.
+                </p>
+
+            </article>
+
+            <!-- ÁREAS DE ATENDIMENTO -->
+            <article id="atendimento">
+
+                <h2>
+                    <i class="fa-solid fa-heart"></i>
+                    Áreas de Atendimento
+                </h2>
+
+                <div class="cards">
+
+                    <div class="card">
+                        <i class="fa-solid fa-brain"></i>
+                        <h3>Ansiedade</h3>
+                        <p>
+                            Apoio emocional e estratégias para lidar com
+                            crises e pensamentos acelerados.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-face-smile"></i>
+                        <h3>Autoestima</h3>
+                        <p>
+                            Desenvolvimento da autoconfiança e fortalecimento emocional.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-people-group"></i>
+                        <h3>Relacionamentos</h3>
+                        <p>
+                            Ajuda para melhorar vínculos afetivos e comunicação.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-fire"></i>
+                        <h3>Burnout</h3>
+                        <p>
+                            Apoio para exaustão emocional e sobrecarga mental.
+                        </p>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- COMO FUNCIONA -->
+            <article id="como-funciona">
+
+                <h2>
+                    <i class="fa-solid fa-list-check"></i>
+                    Como Funciona
+                </h2>
+
+                <div class="passos">
+
+                    <div class="passo">
+                        <span>1</span>
+                        <h3>Primeiro Contato</h3>
+                        <p>
+                            Conversa inicial para entender sua necessidade.
+                        </p>
+                    </div>
+
+                    <div class="passo">
+                        <span>2</span>
+                        <h3>Agendamento</h3>
+                        <p>
+                            Escolha do melhor horário para atendimento.
+                        </p>
+                    </div>
+
+                    <div class="passo">
+                        <span>3</span>
+                        <h3>Sessões</h3>
+                        <p>
+                            Atendimento online ou presencial com total sigilo.
+                        </p>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- FORMAÇÃO -->
+            <article id="formacao">
+
+                <h2>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Formação
+                </h2>
+
+                <div id="formacao-container">
+
+                    <div class="curso">
+
+                        <p class="periodo">
+                            2018 - 2023
+                        </p>
+
+                        <h3 class="instituicao">
+                            Nome da Faculdade
+                        </h3>
+
+                        <p class="titulacao">
+                            Graduação em Psicologia
+                        </p>
+
+                    </div>
+
+                    <div class="curso">
+
+                        <p class="periodo">
+                            2024
+                        </p>
+
+                        <h3 class="instituicao">
+                            Pós-graduação
+                        </h3>
+
+                        <p class="titulacao">
+                            Terapia Cognitivo-Comportamental
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- DEPOIMENTOS -->
+            <article id="depoimentos">
+
+                <h2>
+                    <i class="fa-solid fa-comments"></i>
+                    Depoimentos
+                </h2>
+
+                <div class="cards">
+
+                    <div class="card">
+                        <p>
+                            “Me senti acolhida desde a primeira sessão.”
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <p>
+                            “A terapia me ajudou a entender melhor minhas emoções.”
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <p>
+                            “Profissional extremamente atenciosa e humana.”
+                        </p>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- FAQ -->
+            <article id="faq">
+
+                <h2>
+                    <i class="fa-solid fa-circle-question"></i>
+                    Perguntas Frequentes
+                </h2>
+
+                <div class="faq-item">
+                    <h3>
+                        Terapia online funciona?
+                    </h3>
+
+                    <p>
+                        Sim. O atendimento online possui eficácia reconhecida
+                        e oferece praticidade e conforto.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>
+                        Quanto tempo dura uma sessão?
+                    </h3>
+
+                    <p>
+                        Em média, 50 minutos.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>
+                        Como funciona o sigilo?
+                    </h3>
+
+                    <p>
+                        Todas as sessões seguem princípios éticos e sigilo profissional.
+                    </p>
+                </div>
+
+            </article>
+
+            <!-- CONTATO -->
+            <article id="contato">
+
+                <h2>
+                    <i class="fa-solid fa-envelope"></i>
+                    Contato
+                </h2>
+
+                <div class="contato-box">
+
+                    <a href="#" class="btn-contato">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        WhatsApp
+                    </a>
+
+                    <a href="#" class="btn-contato">
+                        <i class="fa-brands fa-instagram"></i>
+                        Instagram
+                    </a>
+
+                    <a href="#" class="btn-contato">
+                        <i class="fa-solid fa-envelope"></i>
+                        E-mail
+                    </a>
+
+
+                </div>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
