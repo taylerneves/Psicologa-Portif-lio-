@@ -122,7 +122,6 @@ header {
 }
 
 /* MAIN */
-/* MAIN (Ajustado para dar mais largura para a Ficha) */
 main {
     display: grid;
     grid-template-columns: minmax(460px, 360px) 1fr; /* Força a barra da esquerda a ter entre 320px e 360px de largura */
